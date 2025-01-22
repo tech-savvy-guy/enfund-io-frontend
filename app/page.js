@@ -4,6 +4,7 @@ import { useState } from "react"
 import { Navbar } from "@/components/Navbar"
 import { Dashboard } from "@/components/Dashboard"
 import { Footer } from "@/components/Footer"
+// eslint-disable-next-line @typescript-eslint/no-unused-vars
 import useResizeHandler from "@/hooks/useResizeHandler"
 
 export default function DashboardPage() {
