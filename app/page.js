@@ -8,7 +8,7 @@ import useResizeHandler from "@/hooks/useResizeHandler"
 
 export default function DashboardPage() {
   const [isSidebarOpen, setIsSidebarOpen] = useState(true)
-  const scale = useResizeHandler()
+  // const scale = useResizeHandler()
 
   return (
     // <div style={{ transform: `scale(${scale})`, transformOrigin: "top left" }}>
